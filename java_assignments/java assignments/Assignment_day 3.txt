@@ -1,0 +1,222 @@
+What is default package in java
+-- java.lang;
+
+List the types of datatypes with size and give an example of each by doing  declaring and initializating the variables.
+--  types of datatype present in java
+Integer--->byte--->8 bits
+	  short -->2 bytes-->16bits
+          int     4 bytes   32 bits
+	  long    8 bytes   64 bits
+
+ex : 0 to 9 
+
+Decimal   float   4 bytes    32 bits
+	  double  8 bytes     64 bits 
+
+ex: 0.0  to 0.9 
+
+Character  char   2 bytes     16bits
+
+ex: A TO Z OR a to z '1'
+ 
+Boolean    boolean -->1 byte  
+
+ex : true or false 
+
+
+Explain the public static void main(String[] args) in detail.
+
+-- *static is a access specifier 
+*if we declare the method as static no need to create an object to call that method 
+*jvm calls the main methods 
+*classname.methodname    ex: HelloWorld.main();
+*public is a access specifier it decides the visibility of class 
+*String[] args are also called as CommandLine arguements--->used to pass the value to the main method at runtime 
+
+What are the rules of naming the java file.
+-- 1. no space between two words
+2. not a keyword
+3. no special character apart from _ and $ 
+4. name should not start with number 
+5. file name should be upper camel case 
+ex: StudentDetails
+6.filename should be noun
+7.filename should be same as classname
+
+
+what are the rules of naming the class
+-- 1. no space between two words
+2. not a keyword
+3. no special character apart from _ and $ 
+4. name should not start with number 
+5. Class name should be upper camel case 
+ex: StudentDetails
+6.classname should be noun
+
+
+what are the rules for naming the methods
+-- 1. no space between two words
+2. not a keyword
+3. no special character apart from _ and $ 
+4. name should not start with number 
+5. method name should be lower camel case 
+ex: firstName, number	
+6. method name should be noun, relevent , meaningful.
+
+what are the rules for naming variables in java
+-- 1. no space betwn two words
+2. not a keyword
+3. no special character apart from _ and $ 
+4. name should not start with number 
+5. variable name should be lower camel case 
+ex: firstName, number	
+6.variable name should be noun, relevent , meaningful.
+
+which is the main entry point of java program
+-- main method is the entry point of the java program
+
+who is invoking the main method of java 
+-- JVM is invoking the main maethod.
+
+why main has to be static method
+-- The main method in Java is static so that the JVM can call it without creating an instance(Object) of the class that contains it.
+
+components of java program are?
+-- JDK, JRE, Class, Main method, methods..
+
+In which area .class is stored?
+-- The default classpath is in the current directory
+
+In which area object are stored?
+-- Heap Space
+
+
+
+
+
+
+
+
+//syntax of java programs
+package declaration
+import statement
+
+class classname
+{
+//properties
+//methods
+}
+
+import java.lang;
+class Hello$World
+{
+public static void main(String[] args)//main is a method it is 
+//entry point of java program 
+{
+System.out.println("HelloWorld");
+}
+}
+//static is a access specifier 
+//if we declare the method as static no need to create an object to call that method 
+//jvm calls the main methods 
+//classname.methodname    ex: HelloWorld.main();
+//public is a access specifier it decides the visibility of class 
+//String[] args are also called as CommandLine arguements--->used to pass the //value to the main method at runtime 
+
+
+
+
+ 
+
+class naming conventions 
+1. no space bet two words
+2. not a keyword
+3. no special character apart from _ and $ 
+4. name should not start with number 
+5. Class name should be upper camel case 
+ex: StudentDetails
+	Sample
+6.classname should be noun
+
+
+class Hello
+{
+System.out.println("hello");
+}
+
+Data type : Type of data we store in RAM
+Variables:  Label given to the memory block
+
+variable declaration 
+Syntax: datatype variablename;
+
+variable initialization
+Syntax : datatype variablename = value;
+
+types of datatype present in java
+Integer---byte---8 bits
+	  short --2 bytes--16bits
+          int     4 bytes   32 bits
+	  long    8 bytes   64 bits
+
+ex : 0 to 9 
+
+Decimal   float   4 bytes    32 bits
+	  double  8 bytes     64 bits 
+
+ex: 0.0  to 0.9 
+
+Character  char   2 bytes     16bits
+
+ex: A TO Z OR a to z '1'
+ 
+Boolean    boolean --1 byte  
+
+ex : true or false 
+
+naming conventions for variables:  
+
+variable naming conventions 
+1. no space betwn two words
+2. not a keyword
+3. no special character apart from _ and $ 
+4. name should not start with number 
+5. variable name should be lower camel case 
+ex: firstName, number,
+	
+6.variable name should be noun, relevent , meaningful.
+
+//store age of the student
+
+short studentAge=22;
+
+char studentGrade='A';
+
+A=65 
+B=66
+
+Z=90
+
+a=97
+z=122
+
+A
+    2  65
+       32--1
+       16--0
+        8  0
+        4 -0
+        2  0
+        1  0
+1000001 
+
+float studentMarks=34.78f;//error
+
+double empSalary=897653.987;
+
+boolean empStatus=true;
+
+String fatherName="Ram";
+String motherName="Meena";
+
+System.out.println("fatherName="+fatherName+"\n motherName"+motherName);//fatherName

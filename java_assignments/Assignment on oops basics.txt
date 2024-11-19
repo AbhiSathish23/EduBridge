@@ -1,0 +1,72 @@
+ABHI SATHISH 
+
+What is private access specifier?
+--> Private access specifier limits the access within the same class. It uses a 'private' keyword. 
+
+what are getter and setter methods? why do we need them?
+--> Getter and Setter methods are functions that allow to get and set the values for object properties. They are used to protect data. 
+
+why this keyword in the setter method??
+--> ‘this’ keyword is used to refer to the current object. 
+
+difference between localvariable and member variable/instance variable.
+--> Local variable is a variable which is visible inside a method.
+    Instance variables are the variables which can be visible to all methods inside a class. 
+   
+what is reference varialble?
+ --> It is a special type of variable which stores the address of the object.
+
+syntax of creating an object?
+--> ClassName referenceVariable = new ClassName(); 
+
+explain in detail what happens when we create an object??
+--> When we create an object, memory for the object is allocated on the heap. At the time of object creation,if any instance variables are there then those will allocate memory inside object Memory. It will assign object memory address to the reference variable which is created first.
+
+what is class?
+--> Class is a blueprint of an object. Class is a set of objects that are created. Classes contains different types of variables, methods.
+
+what is object?
+--> Object is an instance of class. Object represents real life entities. Object consists of: State, Behaviour, and Identity. 
+Object are always allocated in Heap memory once created. 
+
+what are the default values of all the datatypes?
+--> int - 0, float - 0.0, char - '\u0000', boolean - false, String - null . 
+
+difference between the static methods and instance method?
+--> Static methods: 
+Static methods can be called without the object of the class.
+Static methods are associated with the class. 
+A static method is declared with the static keyword. 
+
+Instance methods: 
+Instance methods require an object of the class. 
+Instance methods are associated with the objects.
+A instance method doesn't use any keyword. 
+
+Syntax of accessing the member variable in the main?
+--> Objectname.methodname();
+
+Syntax of instance method defination?
+--> modifier return_type method_name(){ method_statements; } 
+
+syntax of static method defination?
+--> public static returnType methodName(parameters) {  // method body }
+
+difference between actual parameter and formal parameter?
+--> Actual parameter: 
+It refers to a variable that are declared in method's parameter list during it's definition. 
+
+Formal parameter: 
+It refers to a expression or variables value that are passed to a method when it is called. 
+
+why we need the parameter or arguments to the methods?
+--> The parameters are used in the method body and at runtime will take on the values of the arguments that are passed in.
+    Parameters refers to the list of variables in a method declaration. Arguments are the actual values that are passed in when the method is invoked. 
+ 
+why we need the return statement and return type to the method.
+--> To return a certain value from a code block when the execution of that block is completed.
+
+Method can be private.( true or false)
+--> True
+what is the error message if we access private variable or method out side the class?
+--> It shows that variable or method is declared as private. 
